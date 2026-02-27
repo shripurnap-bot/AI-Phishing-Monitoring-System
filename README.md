@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+Project Overview
 
-## Project info
+The AI-Powered Multilingual Phishing Detection System is an advanced cybersecurity solution designed to detect phishing attacks across multiple languages using machine learning and natural language processing (NLP).
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The system analyzes suspicious messages, emails, and URLs in real time and classifies them as Phishing or Legitimate, while also identifying the phishing type and calculating a dynamic risk score.
 
-## How can I edit this code?
+It is built to work offline, making it suitable for secure environments, educational institutions, enterprises, and hackathon deployments.
 
-There are several ways of editing your application.
+🚀 Key Features
 
-**Use Lovable**
+🌍 Multilingual Detection
+Detects phishing attempts in multiple languages using NLP and transformer-based embeddings.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🧠 Machine Learning Classification
+Uses trained ML models (e.g., Random Forest / NLP-based models) for accurate phishing prediction.
 
-Changes made via Lovable will be committed automatically to this repo.
+📊 Risk Scoring System
+Generates a numerical risk score (0–100) to indicate threat severity.
 
-**Use your preferred IDE**
+🔍 Phishing Type Identification
+Categorizes attacks such as:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Credential Harvesting
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Financial Fraud
 
-Follow these steps:
+Malware Distribution
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Social Engineering
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+📴 Offline Mode
+Fully functional without internet dependency.
 
-# Step 3: Install the necessary dependencies.
-npm i
+🎨 Professional Frontend UI
+Interactive dashboard with:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Real-time analysis results
 
-**Edit a file directly in GitHub**
+Threat severity indicators
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Animated status feedback
 
-**Use GitHub Codespaces**
+Downloadable reports
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🛠️ Technology Stack
+🔹 Frontend
 
-## What technologies are used for this project?
+React (Single JSX Architecture)
 
-This project is built with:
+Framer Motion (animations)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Tailwind CSS
 
-## How can I deploy this project?
+Interactive UI Components
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+🔹 Backend
 
-## Can I connect a custom domain to my Lovable project?
+Python
 
-Yes, you can!
+FastAPI
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Scikit-learn
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+NLP Engine (Custom Module)
+
+🔹 ML Components
+
+Text Preprocessing
+
+Feature Extraction
+
+TF-IDF / Embeddings
+
+Random Forest / Classification Model
+
+⚙️ How It Works
+
+User inputs a suspicious email, message, or URL.
+
+Text is preprocessed and cleaned.
+
+NLP engine extracts features.
+
+ML model predicts:
+
+Phishing or Legitimate
+
+Phishing type
+
+Risk score
+
+Frontend displays structured threat analysis with visual indicators.
+
+🎯 Real-World Applications
+
+Educational institutions email filtering
+
+Corporate cybersecurity screening
+
+Banking fraud detection
+
+Government secure communication systems
+
+Hackathon-ready cybersecurity solution
+
+💡 Innovation & Impact
+
+Unlike traditional rule-based systems, this solution leverages AI-driven multilingual intelligence to detect phishing patterns across different languages and attack styles.
+
+It focuses on:
+
+Explainable risk scoring
+
+Lightweight offline deployment
+
+Modern cybersecurity UI/UX
+
+Scalable architecture
